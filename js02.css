@@ -1,1 +1,62 @@
+body {
+    font-family: Copperplate, Papyrus, fantasy;
+    background: #0d000a;
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    align-items: center;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-clip: content-box;
+}
 
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #db1c06;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 100px;
+    border: none;
+    border-radius: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #74c80d;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    background: #7ec2bf;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #003d66;
+}
